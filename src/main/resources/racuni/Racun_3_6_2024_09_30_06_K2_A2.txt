@@ -1,0 +1,12 @@
+Datum izdavanja racuna: 3.6.2024 09:30:06
+
+Tip vozila: Automobil
+Siri dio grada: da
+Kvar: ne
+Popust: ne
+Promocija: 10.0%
+Trajanje: 6
+Domaci korisnik: K2, broj vozacke: V5, broj licne karte: L4
+Cijena automobila po sekundi: 5.0
+Iznos: 30.0
+Ukupno za placanje: 27.0

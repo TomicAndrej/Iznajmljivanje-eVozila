@@ -1,0 +1,12 @@
+Datum izdavanja racuna: 3.6.2024 09:00:08
+
+Tip vozila: Automobil
+Siri dio grada: ne
+Kvar: ne
+Popust: ne
+Promocija: ne
+Trajanje: 8
+Strani korisnik: K1, broj vozacke: V4, broj pasosa: P0
+Cijena automobila po sekundi: 5.0
+Iznos: 80.0
+Ukupno za placanje: 80.0

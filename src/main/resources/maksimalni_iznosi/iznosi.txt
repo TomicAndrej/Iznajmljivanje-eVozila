@@ -1,0 +1,3 @@
+Automobil 67.5
+Bicikl 60.0
+Trotinet 48.0

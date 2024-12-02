@@ -1,0 +1,12 @@
+Datum izdavanja racuna: 1.6.2024 10:00:10
+
+Tip vozila: Bicikl
+Siri dio grada: ne
+Kvar: ne
+Popust: ne
+Promocija: ne
+Trajanje: 10
+Korisnik: K3
+Cijena bicikla po sekundi: 3.0
+Iznos: 60.0
+Ukupno za placanje: 60.0

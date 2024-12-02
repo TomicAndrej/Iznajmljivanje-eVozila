@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.tomic_andrej_1106_22_projektni_zadatak.KontrolerPrevoznaSredstva">
+   <children>
+      <Button layoutX="627.0" layoutY="14.0" mnemonicParsing="false" onAction="#prelazakNaMapu" text="Mapa">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="310.0" layoutY="34.0" text="Automobili" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TableView fx:id="automobilTableView" layoutX="10.0" layoutY="60.0" prefHeight="200.0" prefWidth="680.0">
+        <columns>
+          <TableColumn fx:id="idAutomobilColumn" prefWidth="63.0" text="ID" />
+          <TableColumn fx:id="datumNabavkeAutomobilColumn" prefWidth="108.0000228881836" text="Datum nabavke" />
+          <TableColumn fx:id="cijenaNabavkeAutomobilColumn" prefWidth="94.4000244140625" text="Cijena nabavke" />
+          <TableColumn fx:id="proizvodjacAutomobilColumn" prefWidth="96.79998779296875" text="Proizvođač" />
+          <TableColumn fx:id="modelAutomobilColumn" minWidth="8.0" prefWidth="72.79998779296875" text="Model" />
+          <TableColumn fx:id="opisAutomobilColumn" minWidth="0.0" prefWidth="92.80001831054688" text="Opis" />
+          <TableColumn fx:id="trenutniNivoBaterijeAutomobilColumn" minWidth="2.4000244140625" prefWidth="148.79998779296875" text="Trenutni nivo baterije" />
+        </columns>
+      </TableView>
+      <Label layoutX="328.0" layoutY="277.0" text="Bicikli" textFill="#11ff00">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="biciklTableView" layoutX="10.0" layoutY="299.0" prefHeight="200.0" prefWidth="680.0">
+        <columns>
+          <TableColumn fx:id="idBiciklColumn" prefWidth="63.0" text="ID" />
+          <TableColumn fx:id="proizvodjacBiciklColumn" prefWidth="87.99996185302734" text="Proizvođač" />
+            <TableColumn fx:id="modelBiciklColumn" prefWidth="75.199951171875" text="Model" />
+            <TableColumn fx:id="cijenaNabavkeBiciklColumn" prefWidth="111.20001220703125" text="Cijena nabavke" />
+            <TableColumn fx:id="trenutniNivoBaterijeBiciklColumn" prefWidth="151.20001220703125" text="Trenutni nivo baterije" />
+            <TableColumn fx:id="dometBiciklColumn" prefWidth="188.00009155273438" text="Domet sa jednim punjenjem" />
+        </columns>
+      </TableView>
+      <TableView fx:id="trotinetTableView" layoutX="10.0" layoutY="536.0" prefHeight="200.0" prefWidth="680.0">
+        <columns>
+          <TableColumn fx:id="idTrotinetColumn" prefWidth="63.0" text="ID" />
+          <TableColumn fx:id="proizvodjacTrotinetColumn" prefWidth="96.0000228881836" text="Proizvođač" />
+            <TableColumn fx:id="modelTrotinetColumn" prefWidth="93.5999755859375" text="Model" />
+            <TableColumn fx:id="trenutniNivoBaterijeTrotinetColumn" prefWidth="157.5999755859375" text="Trenutni nivo baterije" />
+            <TableColumn fx:id="cijenaNabavkeTrotinetColumn" prefWidth="116.80001831054688" text="Cijena nabavke" />
+            <TableColumn fx:id="maksimalnaBrzinaTrotinetColumn" prefWidth="153.60003662109375" text="Maksimalna brzina" />
+        </columns>
+      </TableView>
+      <Label layoutX="319.0" layoutY="508.0" text="Trotineti" textFill="BLUE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

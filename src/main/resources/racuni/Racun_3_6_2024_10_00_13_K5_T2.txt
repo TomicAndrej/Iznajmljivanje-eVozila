@@ -1,0 +1,12 @@
+Datum izdavanja racuna: 3.6.2024 10:00:13
+
+Tip vozila: Trotinet
+Siri dio grada: da
+Kvar: ne
+Popust: ne
+Promocija: ne
+Trajanje: 13
+Korisnik: K5
+Cijena trotineta po sekundi: 2.0
+Iznos: 26.0
+Ukupno za placanje: 26.0

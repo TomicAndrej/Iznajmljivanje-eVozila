@@ -1,0 +1,12 @@
+Datum izdavanja racuna: 2.6.2024 10:00:14
+
+Tip vozila: Bicikl
+Siri dio grada: da
+Kvar: ne
+Popust: ne
+Promocija: ne
+Trajanje: 14
+Korisnik: K2
+Cijena bicikla po sekundi: 3.0
+Iznos: 42.0
+Ukupno za placanje: 42.0
