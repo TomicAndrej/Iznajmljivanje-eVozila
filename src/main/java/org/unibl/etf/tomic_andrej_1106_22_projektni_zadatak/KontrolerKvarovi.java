@@ -22,6 +22,7 @@ import java.time.format.DateTimeFormatter;
  * Ova klasa kontroliše {@code TableView} koji prikazuje listu kvarova, kao i interakcije sa korisnikom vezane za kvarove.
  * </p>
  */
+ 
 public class KontrolerKvarovi {
     private Main mainAplikacija;
 
